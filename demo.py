@@ -8,6 +8,7 @@ import requests
 def main():
     r = requests.get("https://coreyms.com")
     print(r.status_code)
+    print("asdf")
 
 
 if __name__ == "__main__":
